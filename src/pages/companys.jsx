@@ -2,17 +2,17 @@ import { Link } from 'react-router-dom';
 
 function Companys() {
   const companies = [
-    { id: 0, name: "شمول الاعمال", icon: "src/assets/companies/b007.jpg" },
-    { id: 1, name: "شمول الهندسية", icon: "src/assets/companies/e007.jpg" },
-    { id: 2, name: "شمول البيئية", icon: "src/assets/companies/ev07.jpg" },
-    { id: 3, name: "شمول المالية", icon: "src/assets/companies/fi03.jpg" },
-    { id: 4, name: "شمول الجيوهندسية", icon: "src/assets/companies/g001.jpg" },
-    { id: 5, name: "شمول التصميم", icon: "src/assets/companies/i008.jpg" },
-    { id: 6, name: "شمول الصناعية", icon: "src/assets/companies/ie06.jpg" },
-    { id: 7, name: "شمول السلامة", icon: "src/assets/companies/s00-3.jpg" },
-    { id: 8, name: "شمول القانون", icon: "src/assets/companies/sd08.jpg" },
-    { id: 9, name: "شمول التقنية", icon: "src/assets/companies/ss09.jpg" },
-    { id: 10, name: "شمول التآزر", icon: "src/assets/companies/x004.jpg" },
+    { id: 0, name: "شمول الاعمال", icon: "/companies/b007.jpg" },
+    { id: 1, name: "شمول الهندسية", icon: "/companies/e007.jpg" },
+    { id: 2, name: "شمول البيئية", icon: "/companies/ev07.jpg" },
+    { id: 3, name: "شمول المالية", icon: "/companies/fi03.jpg" },
+    { id: 4, name: "شمول الجيوهندسية", icon: "/companies/g001.jpg" },
+    { id: 5, name: "شمول التصميم", icon: "/companies/i008.jpg" },
+    { id: 6, name: "شمول الصناعية", icon: "/companies/ie06.jpg" },
+    { id: 7, name: "شمول السلامة", icon: "/companies/s00-3.jpg" },
+    { id: 8, name: "شمول القانون", icon: "/companies/sd08.jpg" },
+    { id: 9, name: "شمول التقنية", icon: "/companies/ss09.jpg" },
+    { id: 10, name: "شمول التآزر", icon: "/companies/x004.jpg" },
   ];
 
   return (

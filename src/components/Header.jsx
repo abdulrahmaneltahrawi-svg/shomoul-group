@@ -15,7 +15,7 @@ function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo - Right side */}
           <Link className="text-[#c5a059] font-bold text-xl" to="/">
-            <img src="src/assets/imges/Shomoul.png" alt="logo" className="w-58 h-auto" />
+            <img src="/imges/Shomoul.png" alt="logo" className="w-58 h-auto" />
           </Link>
 
           {/* Mobile menu button */}

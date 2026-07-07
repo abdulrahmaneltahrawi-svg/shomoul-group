@@ -60,7 +60,7 @@ function About() {
                 <div className="absolute -top-4 -right-4 w-24 h-24 bg-blue-100 rounded-full -z-10"></div>
                 <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-blue-50 rounded-full -z-10"></div>
                 <img
-                  src="src/assets/imges/b003.jpg"
+                  src="/imges/b003.jpg"
                   alt="مجموعة شمول"
                   className="w-full h-auto rounded-3xl shadow-2xl"
                 />
@@ -94,7 +94,7 @@ function About() {
                 <div className="absolute -top-4 -left-4 w-24 h-24 bg-amber-100 rounded-full -z-10"></div>
                 <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-amber-50 rounded-full -z-10"></div>
                 <img
-                  src="src/assets/imges/s002.jpg"
+                  src="/imges/s002.jpg"
                   alt="رسالتنا ورؤيتنا"
                   className="w-full h-auto rounded-3xl shadow-2xl"
                 />
@@ -135,7 +135,7 @@ function About() {
                 <div className="absolute -top-4 -right-4 w-24 h-24 bg-green-100 rounded-full -z-10"></div>
                 <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-green-50 rounded-full -z-10"></div>
                 <img
-                  src="src/assets/imges/fi06.jpg"
+                  src="/imges/fi06.jpg"
                   alt="قيمنا"
                   className="w-full h-auto rounded-3xl shadow-2xl"
                 />
@@ -149,7 +149,7 @@ function About() {
               <div className="grid grid-cols-1 gap-4">
                 <div className="p-5 rounded-xl border border-gray-100 hover:border-amber-200 hover:shadow-lg transition-all group flex items-center gap-4">
                   <div className="w-12 h-12 bg-gray-50 rounded-full flex items-center justify-center group-hover:bg-amber-100 transition-colors shrink-0">
-                    <img src="src/assets/icons/high-quality.png" alt="quality" />
+                    <img src="/icons/high-quality.png" alt="quality" />
                   </div>
                   <div>
                     <h3 className="text-lg font-bold text-gray-800">الجودة</h3>
@@ -158,7 +158,7 @@ function About() {
                 </div>
                 <div className="p-5 rounded-xl border border-gray-100 hover:border-amber-200 hover:shadow-lg transition-all group flex items-center gap-4">
                   <div className="w-12 h-12 bg-gray-50 rounded-full flex items-center justify-center group-hover:bg-amber-100 transition-colors shrink-0">
-                    <img src="src/assets/icons/agree.png" alt="agree" />
+                    <img src="/icons/agree.png" alt="agree" />
                   </div>
                   <div>
                     <h3 className="text-lg font-bold text-gray-800">النزاهة</h3>
@@ -167,7 +167,7 @@ function About() {
                 </div>
                 <div className="p-5 rounded-xl border border-gray-100 hover:border-amber-200 hover:shadow-lg transition-all group flex items-center gap-4">
                   <div className="w-12 h-12 bg-gray-50 rounded-full flex items-center justify-center group-hover:bg-amber-100 transition-colors shrink-0">
-                    <img src="src/assets/icons/project-management.png" alt="management" />
+                    <img src="/icons/project-management.png" alt="management" />
                   </div>
                   <div>
                     <h3 className="text-lg font-bold text-gray-800">الابتكار</h3>
