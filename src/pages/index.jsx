@@ -56,7 +56,7 @@ function Index() {
   return (
     <>
       {/* Hero Section */}
-      <div className="relative text-white bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/imges/ChatGPT Image May 20, 2026, 11_12_45 AM.png')" }}>
+      <div className="relative text-white bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('src/assets/imges/ChatGPT Image May 20, 2026, 11_12_45 AM.png')" }}>
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="container mx-auto px-4 py-70 relative z-10" dir="rtl">
           <div className="max-w-4xl mx-auto text-center">
@@ -94,8 +94,8 @@ function Index() {
                 <img src="assets/imges/Screenshot 2026-05-13 163200.png" alt="" className="w-[47%] h-80 object-cover rounded-[25px] shadow-2xl" />
               </div>
               <div className="hidden lg:block relative h-155">
-                <img src="/imges/Screenshot 2026-05-13 163206.png" alt="" className="absolute left-8 bottom-10 w-62.5 h-120 object-cover rounded-[35px] shadow-2xl" />
-                <img src="/imges/Screenshot 2026-05-13 163200.png" alt="" className="absolute left-75 top-0 w-62.5 h-120 object-cover rounded-[35px] shadow-2xl" />
+                <img src="src/assets/imges/Screenshot 2026-05-13 163206.png" alt="" className="absolute left-8 bottom-10 w-62.5 h-120 object-cover rounded-[35px] shadow-2xl" />
+                <img src="src/assets/imges/Screenshot 2026-05-13 163200.png" alt="" className="absolute left-75 top-0 w-62.5 h-120 object-cover rounded-[35px] shadow-2xl" />
               </div>
             </div>
             <div className="w-full lg:w-1/2 text-right">
@@ -110,28 +110,28 @@ function Index() {
 
       {/*stats */}
       <section ref={statsRef} className="stats-section relative py-28 overflow-hidden">
-        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/imges/ChatGPT Image May 14, 2026, 10_42_22 AM.png')" }}>
+        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('src/assets/imges/ChatGPT Image May 14, 2026, 10_42_22 AM.png')" }}>
           <div className="absolute inset-0 bg-black/60"></div>
         </div>
         <div className="relative max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-12 text-center">
             <div>
-              <img src="/icons/management.png" className="w-16 h-16 mx-auto mb-8 invert" />
+              <img src="src/assets/icons/management.png" className="w-16 h-16 mx-auto mb-8 invert" />
               <h2 className="text-white text-6xl font-extrabold">{counts.projects}+</h2>
               <p className="text-white text-2xl font-bold mt-10">المشاريع</p>
             </div>
             <div>
-              <img src="/icons/support.png" className="w-16 h-16 mx-auto mb-8 invert" /> 
+              <img src="src/assets/icons/support.png" className="w-16 h-16 mx-auto mb-8 invert" /> 
               <h2 className="text-white text-6xl font-extrabold">{counts.clients}+</h2>
               <p className="text-white text-2xl font-bold mt-10">العملاء</p>
             </div>
             <div>
-              <img src="/icons/costumer.png" className="w-16 h-16 mx-auto mb-8 invert" />
+              <img src="src/assets/icons/costumer.png" className="w-16 h-16 mx-auto mb-8 invert" />
               <h2 className="text-white text-6xl font-extrabold">{counts.team}+</h2>
               <p className="text-white text-2xl font-bold mt-10">أعضاء الفريق</p>
             </div>
             <div>
-              <img src="/icons/anniversary.png" className="w-16 h-16 mx-auto mb-8 invert" />
+              <img src="src/assets/icons/anniversary.png" className="w-16 h-16 mx-auto mb-8 invert" />
               <h2 className="text-white text-6xl font-extrabold">{counts.years}+</h2>
               <p className="text-white text-2xl font-bold mt-10">سنوات في مجال العمل</p>
             </div>
@@ -151,7 +151,7 @@ function Index() {
             <div className="flex flex-col bg-white rounded-2xl shadow-lg p-8 border border-gray-100 hover:shadow-2xl transition-all duration-300 hover:border-amber-200 group">
               <div className="flex items-center justify-between mb-6 pb-4 border-b border-gray-100">
                 <h3 className="text-xl font-bold text-gray-800">الاستشارات الهندسية</h3>
-                <img src="/icons/servies.png" alt="الاستشارات الهندسية" className="w-12 h-12 object-contain" />
+                <img src="src/assets/icons/servies.png" alt="الاستشارات الهندسية" className="w-12 h-12 object-contain" />
               </div>
               <p className="text-gray-700 font-semibold mb-4 text-sm">
                 نقدم خدمات هندسية شاملة في التصميم والإشراف والاستشارات للمشاريع السكنية والتجارية والصناعية.
@@ -187,7 +187,7 @@ function Index() {
             <div className="flex flex-col bg-white rounded-2xl shadow-lg p-8 border border-gray-100 hover:shadow-2xl transition-all duration-300 hover:border-amber-200 group">
               <div className="flex items-center justify-between mb-6 pb-4 border-b border-gray-100">
                 <h3 className="text-xl font-bold text-gray-800">المساحة وفرز الأراضي</h3>
-                <img src="/icons/management.png" alt="المساحة وفرز الأراضي" className="w-12 h-12 object-contain" />
+                <img src="src/assets/icons/management.png" alt="المساحة وفرز الأراضي" className="w-12 h-12 object-contain" />
               </div>
               <p className="text-gray-700 font-semibold mb-4 text-sm">
                 خدمات مساحية دقيقة باستخدام أحدث التقنيات لرفع مساحي وتجزئة ودمج الأراضي.
@@ -223,7 +223,7 @@ function Index() {
             <div className="flex flex-col bg-white rounded-2xl shadow-lg p-8 border border-gray-100 hover:shadow-2xl transition-all duration-300 hover:border-amber-200 group">
               <div className="flex items-center justify-between mb-6 pb-4 border-b border-gray-100">
                 <h3 className="text-xl font-bold text-gray-800">السلامة والرخص</h3>
-                <img src="/icons/fire-extinguisher.png" alt="السلامة والرخص" className="w-12 h-12 object-contain" />
+                <img src="src/assets/icons/fire-extinguisher.png" alt="السلامة والرخص" className="w-12 h-12 object-contain" />
               </div>
               <p className="text-gray-700 font-semibold mb-4 text-sm">
                 تصميم واعتماد أنظمة السلامة وإصدار الرخص التجارية والإنشائية بكفاءة واحترافية.
@@ -266,7 +266,7 @@ function Index() {
 
       {/* Shomoul picture */}
       <section>
-        <img src="/imges/ChatGPT Image May 20, 2026, 04_29_10 PM.png" loading="lazy" alt="مجموعة شمول من الداخل" className="w-full max-h-197.5 object-cover block" />
+        <img src="src/assets/imges/ChatGPT Image May 20, 2026, 04_29_10 PM.png" loading="lazy" alt="مجموعة شمول من الداخل" className="w-full max-h-197.5 object-cover block" />
       </section>
 
       {/* alhayat */}
@@ -275,52 +275,52 @@ function Index() {
         <div className="overflow-hidden w-full relative">
           <div className="slider-track">
             <div className="shrink-0 w-56 h-32 bg-white rounded-xl shadow flex items-center justify-center p-5 border border-gray-100">
-              <img src="/alhayat/مركز التحكيم التجاري لدول مجلس التعاون الخليجي.jpg" loading="lazy" alt="هيئة" className="max-w-full max-h-full object-contain" />
+              <img src="src/assets/alhayat/مركز التحكيم التجاري لدول مجلس التعاون الخليجي.jpg" loading="lazy" alt="هيئة" className="max-w-full max-h-full object-contain" />
             </div>
             <div className="shrink-0 w-56 h-32 bg-white rounded-xl shadow flex items-center justify-center p-5 border border-gray-100">
-              <img src="/alhayat/بلدي.jpg" loading="lazy" alt="بلدي" className="max-w-full max-h-full object-contain" />
+              <img src="src/assets/alhayat/بلدي.jpg" loading="lazy" alt="بلدي" className="max-w-full max-h-full object-contain" />
             </div>
             <div className="shrink-0 w-56 h-32 bg-white rounded-xl shadow flex items-center justify-center p-5 border border-gray-100">
-              <img src="/alhayat/Sabic.jpg" loading="lazy" alt="Sabic" className="max-w-full max-h-full object-contain" />
+              <img src="src/assets/alhayat/Sabic.jpg" loading="lazy" alt="Sabic" className="max-w-full max-h-full object-contain" />
             </div>
             <div className="shrink-0 w-56 h-32 bg-white rounded-xl shadow flex items-center justify-center p-5 border border-gray-100">
-              <img src="/alhayat/Sap.jpg" loading="lazy" alt="SAP" className="max-w-full max-h-full object-contain" />
+              <img src="src/assets/alhayat/Sap.jpg" loading="lazy" alt="SAP" className="max-w-full max-h-full object-contain" />
             </div>
             <div className="shrink-0 w-56 h-32 bg-white rounded-xl shadow flex items-center justify-center p-5 border border-gray-100">
-              <img src="/alhayat/مدن .jpg" loading="lazy" alt="مدن" className="max-w-full max-h-full object-contain" />
+              <img src="src/assets/alhayat/مدن .jpg" loading="lazy" alt="مدن" className="max-w-full max-h-full object-contain" />
             </div>
             <div className="shrink-0 w-56 h-32 bg-white rounded-xl shadow flex items-center justify-center p-5 border border-gray-100">
-              <img src="/alhayat/Tasnee.jpg" loading="lazy" alt="Tasnee" className="max-w-full max-h-full object-contain" />
+              <img src="src/assets/alhayat/Tasnee.jpg" loading="lazy" alt="Tasnee" className="max-w-full max-h-full object-contain" />
             </div>
             <div className="shrink-0 w-56 h-32 bg-white rounded-xl shadow flex items-center justify-center p-5 border border-gray-100">
-              <img src="/alhayat/شركة المياه الوطنية.jpg" loading="lazy" alt="المياه" className="max-w-full max-h-full object-contain" />
+              <img src="src/assets/alhayat/شركة المياه الوطنية.jpg" loading="lazy" alt="المياه" className="max-w-full max-h-full object-contain" />
             </div>
             <div className="shrink-0 w-56 h-32 bg-white rounded-xl shadow flex items-center justify-center p-5 border border-gray-100">
-              <img src="/alhayat/وزارة الدفاع السعودي.jpg" loading="lazy" alt="الدفاع" className="max-w-full max-h-full object-contain" />
+              <img src="src/assets/alhayat/وزارة الدفاع السعودي.jpg" loading="lazy" alt="الدفاع" className="max-w-full max-h-full object-contain" />
             </div>
             <div className="shrink-0 w-56 h-32 bg-white rounded-xl shadow flex items-center justify-center p-5 border border-gray-100">
-              <img src="/alhayat/مركز التحكيم التجاري لدول مجلس التعاون الخليجي.jpg" loading="lazy" alt="هيئة" className="max-w-full max-h-full object-contain" />
+              <img src="src/assets/alhayat/مركز التحكيم التجاري لدول مجلس التعاون الخليجي.jpg" loading="lazy" alt="هيئة" className="max-w-full max-h-full object-contain" />
             </div>
             <div className="shrink-0 w-56 h-32 bg-white rounded-xl shadow flex items-center justify-center p-5 border border-gray-100">
-              <img src="/alhayat/بلدي.jpg" loading="lazy" alt="بلدي" className="max-w-full max-h-full object-contain" />
+              <img src="src/assets/alhayat/بلدي.jpg" loading="lazy" alt="بلدي" className="max-w-full max-h-full object-contain" />
             </div>
             <div className="shrink-0 w-56 h-32 bg-white rounded-xl shadow flex items-center justify-center p-5 border border-gray-100">
-              <img src="/alhayat/Sabic.jpg" loading="lazy" alt="Sabic" className="max-w-full max-h-full object-contain" />
+              <img src="src/assets/alhayat/Sabic.jpg" loading="lazy" alt="Sabic" className="max-w-full max-h-full object-contain" />
             </div>
             <div className="shrink-0 w-56 h-32 bg-white rounded-xl shadow flex items-center justify-center p-5 border border-gray-100">
-              <img src="/alhayat/Sap.jpg" loading="lazy" alt="SAP" className="max-w-full max-h-full object-contain" />
+              <img src="src/assets/alhayat/Sap.jpg" loading="lazy" alt="SAP" className="max-w-full max-h-full object-contain" />
             </div>
             <div className="shrink-0 w-56 h-32 bg-white rounded-xl shadow flex items-center justify-center p-5 border border-gray-100">
-              <img src="/alhayat/مدن .jpg" loading="lazy" alt="مدن" className="max-w-full max-h-full object-contain" />
+              <img src="src/assets/alhayat/مدن .jpg" loading="lazy" alt="مدن" className="max-w-full max-h-full object-contain" />
             </div>
             <div className="shrink-0 w-56 h-32 bg-white rounded-xl shadow flex items-center justify-center p-5 border border-gray-100">
-              <img src="/alhayat/Tasnee.jpg" loading="lazy" alt="Tasnee" className="max-w-full max-h-full object-contain" />
+              <img src="src/assets/alhayat/Tasnee.jpg" loading="lazy" alt="Tasnee" className="max-w-full max-h-full object-contain" />
             </div>
             <div className="shrink-0 w-56 h-32 bg-white rounded-xl shadow flex items-center justify-center p-5 border border-gray-100">
-              <img src="/alhayat/شركة المياه الوطنية.jpg" loading="lazy" alt="المياه" className="max-w-full max-h-full object-contain" />
+              <img src="src/assets/alhayat/شركة المياه الوطنية.jpg" loading="lazy" alt="المياه" className="max-w-full max-h-full object-contain" />
             </div>
             <div className="shrink-0 w-56 h-32 bg-white rounded-xl shadow flex items-center justify-center p-5 border border-gray-100">
-              <img src="/alhayat/وزارة الدفاع السعودي.jpg" loading="lazy" alt="الدفاع" className="max-w-full max-h-full object-contain" />
+              <img src="src/assets/alhayat/وزارة الدفاع السعودي.jpg" loading="lazy" alt="الدفاع" className="max-w-full max-h-full object-contain" />
             </div>
           </div>
         </div>
@@ -328,7 +328,7 @@ function Index() {
 
       {/* Contact Section */}
       <section className="relative flex items-center justify-center text-center text-white" 
-        style={{ height: '60vh', minHeight: '400px', backgroundImage: "url('/imges/ChatGPT Image Jun 30, 2026, 11_44_24 AM.png')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
+        style={{ height: '60vh', minHeight: '400px', backgroundImage: "url('src/assets/imges/ChatGPT Image Jun 30, 2026, 11_44_24 AM.png')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative z-10 px-5">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">لنعمل سوياً</h1>
@@ -344,62 +344,62 @@ function Index() {
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
             <div className="flex justify-center">
               <div className="w-32 h-32 bg-white rounded-full shadow-lg flex items-center justify-center p-3 border border-gray-200 hover:scale-110 transition-transform">
-                <img src="/clients/001-1.jpg" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
+                <img src="src/assets/clients/001-1.jpg" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
               </div>
             </div>
             <div className="flex justify-center">
               <div className="w-32 h-32 bg-white rounded-full shadow-lg flex items-center justify-center p-3 border border-gray-200 hover:scale-110 transition-transform">
-                <img src="/clients/002-1.jpg" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
+                <img src="src/assets/clients/002-1.jpg" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
               </div>
             </div>
             <div className="flex justify-center">
               <div className="w-32 h-32 bg-white rounded-full shadow-lg flex items-center justify-center p-3 border border-gray-200 hover:scale-110 transition-transform">
-                <img src="/clients/003-1.jpg" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
+                <img src="src/assets/clients/003-1.jpg" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
               </div>
             </div>
             <div className="flex justify-center">
               <div className="w-32 h-32 bg-white rounded-full shadow-lg flex items-center justify-center p-3 border border-gray-200 hover:scale-110 transition-transform">
-                <img src="/clients/004-2.jpg" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
+                <img src="src/assets/clients/004-2.jpg" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
               </div>
             </div>
             <div className="flex justify-center">
               <div className="w-32 h-32 bg-white rounded-full shadow-lg flex items-center justify-center p-3 border border-gray-200 hover:scale-110 transition-transform">
-                <img src="/clients/006-1.jpg" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
+                <img src="src/assets/clients/006-1.jpg" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
               </div>
             </div>
             <div className="flex justify-center">
               <div className="w-32 h-32 bg-white rounded-full shadow-lg flex items-center justify-center p-3 border border-gray-200 hover:scale-110 transition-transform">
-                <img src="/clients/007-1.png" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
+                <img src="src/assets/clients/007-1.png" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
               </div>
             </div>
             <div className="flex justify-center">
               <div className="w-32 h-32 bg-white rounded-full shadow-lg flex items-center justify-center p-3 border border-gray-200 hover:scale-110 transition-transform">
-                <img src="/clients/008-1.jpg" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
+                <img src="src/assets/clients/008-1.jpg" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
               </div>
             </div>
             <div className="flex justify-center">
               <div className="w-32 h-32 bg-white rounded-full shadow-lg flex items-center justify-center p-3 border border-gray-200 hover:scale-110 transition-transform">
-                <img src="/clients/009-1.jpg" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
+                <img src="src/assets/clients/009-1.jpg" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
               </div>
             </div>
             <div className="flex justify-center">
               <div className="w-32 h-32 bg-white rounded-full shadow-lg flex items-center justify-center p-3 border border-gray-200 hover:scale-110 transition-transform">
-                <img src="/clients/010-1.jpg" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
+                <img src="src/assets/clients/010-1.jpg" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
               </div>
             </div>
             <div className="flex justify-center">
               <div className="w-32 h-32 bg-white rounded-full shadow-lg flex items-center justify-center p-3 border border-gray-200 hover:scale-110 transition-transform">
-                <img src="/clients/011.jpg" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
+                <img src="src/assets/clients/011.jpg" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
               </div>
             </div>
             <div className="flex justify-center">
               <div className="w-32 h-32 bg-white rounded-full shadow-lg flex items-center justify-center p-3 border border-gray-200 hover:scale-110 transition-transform">
-                <img src="/clients/025.jpg" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
+                <img src="src/assets/clients/025.jpg" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
               </div>
             </div>
             <div className="flex justify-center">
               <div className="w-32 h-32 bg-white rounded-full shadow-lg flex items-center justify-center p-3 border border-gray-200 hover:scale-110 transition-transform">
-                <img src="/clients/013.jpg" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
+                <img src="src/assets/clients/013.jpg" alt="عميل" className="max-w-[75%] max-h-[75%] object-contain" />
               </div>
             </div>
           </div>

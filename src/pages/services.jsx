@@ -14,7 +14,7 @@ function Services() {
         "إصدار شهادات الفرز النهائية",
         "تقديم استشارات حول عملية الفرز العقاري",
       ],
-      icon: "/icons/layout.png",
+      icon: "src/assets/icons/layout.png",
     },
     {
       id: 2,
@@ -29,7 +29,7 @@ function Services() {
         "التنسيق مع الجهات الرسمية أثناء التنفيذ",
         "فحوصات ضمان الجودة",
       ],
-      icon: "/icons/inspection.png",
+      icon: "src/assets/icons/inspection.png",
     },
     {
       id: 3,
@@ -45,7 +45,7 @@ function Services() {
         "إعداد مخططات تنفيذية للديكور",
         "تقديم تصاميم ثلاثية الأبعاد (3D)",
       ],
-      icon: "/icons/prototype.png",
+      icon: "src/assets/icons/prototype.png",
     },
     {
       id: 4,
@@ -61,7 +61,7 @@ function Services() {
         "إعداد تقرير فني معماري معتمد",
         "مراجعة وتدقيق المخططات للاعتماد الإلكتروني",
       ],
-      icon: "/icons/servies.png",
+      icon: "src/assets/icons/servies.png",
     },
     {
       id: 5,
@@ -77,7 +77,7 @@ function Services() {
         "إصدار شهادة السلامة للمباني",
         "تقرير ملاءمة الأنظمة",
       ],
-      icon: "/icons/fire-extinguisher.png",
+      icon: "src/assets/icons/fire-extinguisher.png",
     },
     {
       id: 6,
@@ -93,7 +93,7 @@ function Services() {
         "شهادة إتمام البناء",
         "رخصة أشغال رصيف",
       ],
-      icon: "/icons/checklist.png",
+      icon: "src/assets/icons/checklist.png",
     },
     {
       id: 7,
@@ -108,7 +108,7 @@ function Services() {
         "خدمة إصدار تقرير مساحي",
         "إجراء الرفع المساحي للأراضي والمباني",
       ],
-      icon: "/icons/management.png",
+      icon: "src/assets/icons/management.png",
     },
     {
       id: 8,
@@ -119,7 +119,7 @@ function Services() {
         "تصميم إنشائي",
         "خدمة إشراف على التنفيذ",
       ],
-      icon: "/icons/tool-outline.png",
+      icon: "src/assets/icons/tool-outline.png",
     },
   ];
 
