@@ -12,7 +12,7 @@ function Footer() {
           {/* Brand */}
           <div className="group">
             <Link to="/">
-              <img src="src/assets/imges/logo.png" alt="logo" className="w-38 h-auto mb-4 group-hover:scale-105 transition-transform duration-300" />
+              <img src="public/imges/logo.png" alt="logo" className="w-38 h-auto mb-4 group-hover:scale-105 transition-transform duration-300" />
             </Link>
             <p className="text-gray-400 leading-relaxed mt-4 group-hover:text-gray-300 transition-colors duration-300">
               شركة رائدة في تقديم الحلول الهندسية والاستشارات المهنية
@@ -56,19 +56,19 @@ function Footer() {
             <ul className="space-y-4 text-gray-400">
               <li className="flex items-center gap-3 hover:text-[#c5a059] transition-colors duration-300">
                 <div className="w-8 h-8 rounded-full bg-[#c5a059] /20 flex items-center justify-center group-hover:bg-[#947843] /40 transition-colors">
-                  <img src="src/assets/icons/email (1).png" alt="واتساب" className="w-7 h-7" />
+                  <img src="public/icons/email (1).png" alt="واتساب" className="w-7 h-7" />
                 </div>
                 <span>+966 123 456 789</span>
               </li>
               <li className="flex items-center gap-3 hover:text-[#c5a059] transition-colors duration-300">
                 <div className="w-8 h-8 rounded-full bg-[#c5a059] /20 flex items-center justify-center group-hover:bg-[#947843] /40 transition-colors">
-                  <img src="src/assets/icons/phone-call.png" alt="بريد" className="w-7 h-7" />
+                  <img src="public/icons/phone-call.png" alt="بريد" className="w-7 h-7" />
                 </div>
                 <span>info@shomoul.com</span>
               </li>
               <li className="flex items-center gap-3 hover:text-[#c5a059] transition-colors duration-300">
                 <div className="w-8 h-8 rounded-full bg-[#c5a059] /20 flex items-center justify-center group-hover:bg-[#947843] /40 transition-colors">
-                  <img src="src/assets/icons/gps.png" alt="موقع" className="w-7 h-7" />
+                  <img src="public/icons/gps.png" alt="موقع" className="w-7 h-7" />
                 </div>
                 <span>الرياض، المملكة العربية السعودية</span>
               </li>

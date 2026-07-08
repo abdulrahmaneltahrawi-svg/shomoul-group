@@ -5,20 +5,20 @@ function Projects() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const projects = [
-    { img: "src/assets/p/ChatGPT Image Jul 2, 2026, 08_23_15 AM.png", description: "تصميم وإشراف على مجمع سكني متكامل بمساحة 50,000 م² في المنطقة الشرقية.", caption: "برج بتصميم أسطواني عصري بواجهة زجاجية ذات نقوش متموجة", category: "tower" },
-    { img: "src/assets/p/ChatGPT Image Jul 2, 2026, 08_21_14 AM.png", description: "تصميم وتنفيذ مبنى إداري مكون من 8 طوابق في الخبر.", caption: "برج شاهق بتصميم هندسي حديث وواجهة زجاجية عاكسة", category: "tower" },
-    { img: "src/assets/p/ChatGPT Image 2 يوليو 2026، 08_36_46 ص.png", description: "تصميم جسر بطول 500 متر يربط بين طريقين رئيسيين.", caption: "محطة وقود بتصميم حديث يعتمد على اللونين الأحمر والأبيض", category: "NAFT" },
-    { img: "src/assets/p/ChatGPT Image 2 يوليو 2026، 08_40_00 ص.png", description: "تصميم واعتماد خطط السلامة والطوارئ لمنشأة صحية.", caption: "محطة وقود تتميز بتصميم يعتمد بشكل أساسي على اللون الأخضر", category: "NAFT" },
-    { img: "src/assets/p/ChatGPT Image 2 يوليو 2026، 08_32_35 ص.png", description: "تصميم وتنفيذ مول تجاري بمساحة 30,000 م².", caption: "مبنى يتميز بتصميم يجمع بين الواجهة الزجاجية والخرسانية", category: "company" },
-    { img: "src/assets/p/ChatGPT Image Jul 2, 2026, 08_26_11 AM.png", description: "استشارات هندسية لمصنع بتروكيماويات في المنطقة الصناعية.", caption: "مبنى إداري حديث يتكون من برجين زجاجيين متصلين بجسر علوي", category: "company" },
-    { img: "src/assets/p/ChatGPT Image 2 يوليو 2026، 09_11_17 ص.png", description: "تصميم وتجهيز مركز طبي متخصص وفق أعلى معايير السلامة.", caption: "برج المانع الطبي - صرح طبي بتصميم هندسي حديث", category: "medical" },
-    { img: "src/assets/p/ChatGPT Image 2 يوليو 2026، 08_46_34 ص.png", description: "إشراف هندسي على توسعة مبنى طبي وتجهيزاته الفنية.", caption: "الواجهة الأمامية لمستشفى الأحساء", category: "medical" },
-    { img: "src/assets/p/ChatGPT Image 2 يوليو 2026، 08_49_51 ص.png", description: "تصميم وتنفيذ مستودعات لوجستية بمواصفات تخزين عالية.", caption: "محطة خلط خرسانة صناعية مع صوامع تخزين بيضاء", category: "repository" },
-    { img: "src/assets/p/ChatGPT Image 2 يوليو 2026، 08_51_05 ص.png", description: "إدارة وتنفيذ مشروع مستودع صناعي متعدد الاستخدامات.", caption: "منشأة صناعية ضخمة", category: "repository" },
-    { img: "src/assets/p/WhatsApp Image 2026-07-02 at 8.48.10 AM (1).jpeg", description: "تصميم وتنفيذ منشأة تجارية بحلول هندسية متكاملة.", caption: "منشأة تجارية حديثة", category: "industrial" },
-    { img: "src/assets/p/WhatsApp Image 2026-07-02 at 8.48.10 AM.jpeg", description: "إشراف هندسي كامل على مشروع منشأة تجارية.", caption: "إشراف هندسي كامل على مشروع منشأة تجارية", category: "industrial" },
-    { img: "src/assets/p/WhatsApp Image 2026-07-02 at 8.48.10 AM (2).jpeg", description: "تصميم وتنفيذ وحدات سكنية بمعايير جودة عالية.", caption: "وحدات سكنية عصرية", category: "residential" },
-    { img: "src/assets/p/WhatsApp Image 2026-07-02 at 8.48.11 AM.jpeg", description: "إدارة وتنفيذ مشروع سكني متكامل الخدمات.", caption: "مشروع سكني متكامل", category: "residential" },
+    { img: "public/p/ChatGPT Image Jul 2, 2026, 08_23_15 AM.png", description: "تصميم وإشراف على مجمع سكني متكامل بمساحة 50,000 م² في المنطقة الشرقية.", caption: "برج بتصميم أسطواني عصري بواجهة زجاجية ذات نقوش متموجة", category: "tower" },
+    { img: "public/p/ChatGPT Image Jul 2, 2026, 08_21_14 AM.png", description: "تصميم وتنفيذ مبنى إداري مكون من 8 طوابق في الخبر.", caption: "برج شاهق بتصميم هندسي حديث وواجهة زجاجية عاكسة", category: "tower" },
+    { img: "public/p/ChatGPT Image 2 يوليو 2026، 08_36_46 ص.png", description: "تصميم جسر بطول 500 متر يربط بين طريقين رئيسيين.", caption: "محطة وقود بتصميم حديث يعتمد على اللونين الأحمر والأبيض", category: "NAFT" },
+    { img: "public/p/ChatGPT Image 2 يوليو 2026، 08_40_00 ص.png", description: "تصميم واعتماد خطط السلامة والطوارئ لمنشأة صحية.", caption: "محطة وقود تتميز بتصميم يعتمد بشكل أساسي على اللون الأخضر", category: "NAFT" },
+    { img: "public/p/ChatGPT Image 2 يوليو 2026، 08_32_35 ص.png", description: "تصميم وتنفيذ مول تجاري بمساحة 30,000 م².", caption: "مبنى يتميز بتصميم يجمع بين الواجهة الزجاجية والخرسانية", category: "company" },
+    { img: "public/p/ChatGPT Image Jul 2, 2026, 08_26_11 AM.png", description: "استشارات هندسية لمصنع بتروكيماويات في المنطقة الصناعية.", caption: "مبنى إداري حديث يتكون من برجين زجاجيين متصلين بجسر علوي", category: "company" },
+    { img: "public/p/ChatGPT Image 2 يوليو 2026، 09_11_17 ص.png", description: "تصميم وتجهيز مركز طبي متخصص وفق أعلى معايير السلامة.", caption: "برج المانع الطبي - صرح طبي بتصميم هندسي حديث", category: "medical" },
+    { img: "public/p/ChatGPT Image 2 يوليو 2026، 08_46_34 ص.png", description: "إشراف هندسي على توسعة مبنى طبي وتجهيزاته الفنية.", caption: "الواجهة الأمامية لمستشفى الأحساء", category: "medical" },
+    { img: "public/p/ChatGPT Image 2 يوليو 2026، 08_49_51 ص.png", description: "تصميم وتنفيذ مستودعات لوجستية بمواصفات تخزين عالية.", caption: "محطة خلط خرسانة صناعية مع صوامع تخزين بيضاء", category: "repository" },
+    { img: "public/p/ChatGPT Image 2 يوليو 2026، 08_51_05 ص.png", description: "إدارة وتنفيذ مشروع مستودع صناعي متعدد الاستخدامات.", caption: "منشأة صناعية ضخمة", category: "repository" },
+    { img: "public/p/WhatsApp Image 2026-07-02 at 8.48.10 AM (1).jpeg", description: "تصميم وتنفيذ منشأة تجارية بحلول هندسية متكاملة.", caption: "منشأة تجارية حديثة", category: "industrial" },
+    { img: "public/p/WhatsApp Image 2026-07-02 at 8.48.10 AM.jpeg", description: "إشراف هندسي كامل على مشروع منشأة تجارية.", caption: "إشراف هندسي كامل على مشروع منشأة تجارية", category: "industrial" },
+    { img: "public/p/WhatsApp Image 2026-07-02 at 8.48.10 AM (2).jpeg", description: "تصميم وتنفيذ وحدات سكنية بمعايير جودة عالية.", caption: "وحدات سكنية عصرية", category: "residential" },
+    { img: "public/p/WhatsApp Image 2026-07-02 at 8.48.11 AM.jpeg", description: "إدارة وتنفيذ مشروع سكني متكامل الخدمات.", caption: "مشروع سكني متكامل", category: "residential" },
   ];
 
   const filteredProjects = activeFilter === 'all' ? projects : projects.filter(p => p.category === activeFilter);
