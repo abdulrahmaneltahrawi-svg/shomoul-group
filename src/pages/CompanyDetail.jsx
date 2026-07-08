@@ -106,9 +106,9 @@ function CompanyDetail() {
           <div className="absolute bottom-10 right-10 w-96 h-96 bg-[#c5a059] rounded-full blur-3xl"></div>
         </div>
         <div className="relative max-w-6xl mx-auto px-6 py-16">
-          <div className="flex flex-col md:flex-row items-center gap-10">
-            <div className="flex-1 text-center md:text-right">
-              <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight text-[#c5a059] ">{company.name}</h1>
+          <div className=" items-center gap-10">
+            <div className="flex-1 text-center md:text-center">
+              <h1 className="text-4xl md:text-5xl font-bold mb-4 text-[#c5a059] ">{company.name}</h1>
               <p className="text-gray-300 text-lg leading-relaxed">{company.description}</p>
             </div>
           </div>

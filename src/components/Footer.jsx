@@ -12,7 +12,7 @@ function Footer() {
           {/* Brand */}
           <div className="group">
             <Link to="/">
-              <img src="public/imges/Shomoul.png" alt="logo" className="w-38 h-auto mb-4 group-hover:scale-105 transition-transform duration-300" />
+              <img src="/imges/footer-logo.png" alt="logo" className="w-38 h-auto mb-4 group-hover:scale-105 transition-transform duration-300" />
             </Link>
             <p className="text-gray-400 leading-relaxed mt-4 group-hover:text-gray-300 transition-colors duration-300">
               شركة رائدة في تقديم الحلول الهندسية والاستشارات المهنية

@@ -7,7 +7,7 @@ function Clients() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-black text-[#1a1a1a]">شركاء النجاح</h2>
           <p className="text-gray-500 mt-3 max-w-5xl mx-auto leading-relaxed">
-            نحن نؤمن بأن نجاحنا يرتبط بنجاح عملائنا. على مدار سنوات من الخبرة، حققنا شراكات استراتيجية مع كبرى الشركات والمؤسسات في المملكة.
+            نحن نؤمن بأن نجاحنا يرتبط بنجاح عملائنا. على مدار سنوات من الخبرة، حققنا شراكات استراتيجية مع كبرى الشركات والمؤسسات في المملكة
           </p>
           <div className="w-64 md:w-230 h-1 bg-[#c5a059] mx-auto mt-4 rounded-full"></div>
 
