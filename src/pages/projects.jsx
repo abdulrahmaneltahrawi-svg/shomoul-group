@@ -14,7 +14,7 @@ function Projects() {
     { img: "/p/ChatGPT Image 2 يوليو 2026، 09_11_17 ص.png", description: "تصميم وتجهيز مركز طبي متخصص وفق أعلى معايير السلامة.", caption: "برج المانع الطبي - صرح طبي بتصميم هندسي حديث", category: "medical" },
     { img: "/p/ChatGPT Image 2 يوليو 2026، 08_46_34 ص.png", description: "إشراف هندسي على توسعة مبنى طبي وتجهيزاته الفنية.", caption: "الواجهة الأمامية لمستشفى الأحساء", category: "medical" },
     { img: "/p/ChatGPT Image 2 يوليو 2026، 08_49_51 ص.png", description: "تصميم وتنفيذ مستودعات لوجستية بمواصفات تخزين عالية.", caption: "محطة خلط خرسانة صناعية مع صوامع تخزين بيضاء", category: "repository" },
-    { img: "/p/ChatGPT Image 2 يوليو 2026، 08_51_05 ص.png", description: "إدارة وتنفيذ مشروع مستودع صناعي متعدد الاستخدامات.", caption: "منشأة صناعية ضخمة", category: "repository" },
+    { img: "/p/ChatGPT Image 8 يوليو 2026، 11_42_56 ص.png", description: "إدارة وتنفيذ مشروع مستودع صناعي متعدد الاستخدامات.", caption: "مستودع صناعي ضخم", category: "repository" },
     { img: "/p/WhatsApp Image 2026-07-02 at 8.48.10 AM (1).jpeg", description: "تصميم وتنفيذ منشأة تجارية بحلول هندسية متكاملة.", caption: "منشأة تجارية حديثة", category: "industrial" },
     { img: "/p/WhatsApp Image 2026-07-02 at 8.48.10 AM.jpeg", description: "إشراف هندسي كامل على مشروع منشأة تجارية.", caption: "إشراف هندسي كامل على مشروع منشأة تجارية", category: "industrial" },
     { img: "/p/WhatsApp Image 2026-07-02 at 8.48.10 AM (2).jpeg", description: "تصميم وتنفيذ وحدات سكنية بمعايير جودة عالية.", caption: "وحدات سكنية عصرية", category: "residential" },

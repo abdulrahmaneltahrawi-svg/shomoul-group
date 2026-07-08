@@ -67,7 +67,7 @@ function About() {
               </div>
             </div>
             <div className="w-full lg:w-1/2">
-              <div className="inline-block px-4 py-1 bg-[#c5a059]/80 text-white rounded-full text-sm font-bold mb-4">قصتنا</div>
+              <div className="inline-block px-4 py-1 bg-[#c5a059]/80 text-white rounded-full text-lg font-bold mb-4">قصتنا</div>
               <h2 className="text-5xl font-bold text-gray-800 mb-6 leading-tight">
                 مجموعة شمول <span className="text-[#c5a059]">للاستشارات الهندسية</span>
               </h2>
@@ -101,7 +101,7 @@ function About() {
               </div>
             </div>
             <div className="w-full lg:w-1/2">
-              <div className="inline-block px-4 py-1 bg-[#c5a059]/80 text-white rounded-full text-sm font-bold mb-4">رسالتنا ورؤيتنا</div>
+              <div className="inline-block px-4 py-1 bg-[#c5a059]/80 text-white rounded-full text-lg font-bold mb-4">رسالتنا ورؤيتنا</div>
               <h2 className="text-4xl font-bold text-gray-800 mb-8 leading-tight">
                 ماذا <span className="text-[#c5a059]">نطمح</span> إليه
               </h2>
@@ -142,13 +142,13 @@ function About() {
               </div>
             </div>
             <div className="w-full lg:w-1/2">
-              <div className="inline-block px-4 py-1 bg-[#c5a059]/80 text-white rounded-full text-sm font-bold mb-4">قيمنا</div>
+              <div className="inline-block px-4 py-1 bg-[#c5a059]/80 text-white rounded-full text-lg font-bold mb-4">قيمنا</div>
               <h2 className="text-4xl font-bold text-gray-800 mb-8 leading-tight">
                 مبادئنا <span className="text-[#c5a059]">الأساسية</span>
               </h2>
               <div className="grid grid-cols-1 gap-4">
-                <div className="p-5 rounded-xl border border-gray-100 hover:border-amber-200 hover:shadow-lg transition-all group flex items-center gap-4">
-                  <div className="w-12 h-12 bg-gray-50 rounded-full flex items-center justify-center group-hover:bg-amber-100 transition-colors shrink-0">
+                <div className="p-5 rounded-xl border-t-4 border-[#c5a059]  shadow-lg transition-all group flex items-center gap-4 " >
+                  <div className="w-12 h-12 bg-gray-50 rounded-full flex items-center justify-center ">
                     <img src="/icons/high-quality.png" alt="quality" />
                   </div>
                   <div>
@@ -156,8 +156,8 @@ function About() {
                     <p className="text-gray-500 text-sm">نلتزم بأعلى معايير الجودة في جميع خدماتنا الهندسية والاستشارية.</p>
                   </div>
                 </div>
-                <div className="p-5 rounded-xl border border-gray-100 hover:border-amber-200 hover:shadow-lg transition-all group flex items-center gap-4">
-                  <div className="w-12 h-12 bg-gray-50 rounded-full flex items-center justify-center group-hover:bg-amber-100 transition-colors shrink-0">
+                <div className="p-5 rounded-xl border-t-4 border-[#c5a059]  shadow-lg transition-all group flex items-center gap-4 " >
+                  <div className="w-12 h-12 bg-gray-50 rounded-full flex items-center justify-center ">
                     <img src="/icons/agree.png" alt="agree" />
                   </div>
                   <div>
@@ -165,8 +165,8 @@ function About() {
                     <p className="text-gray-500 text-sm">نعمل بشفافية وأمانة في جميع تعاملاتنا مع العملاء والشركاء.</p>
                   </div>
                 </div>
-                <div className="p-5 rounded-xl border border-gray-100 hover:border-amber-200 hover:shadow-lg transition-all group flex items-center gap-4">
-                  <div className="w-12 h-12 bg-gray-50 rounded-full flex items-center justify-center group-hover:bg-amber-100 transition-colors shrink-0">
+                <div className="p-5 rounded-xl border-t-4 border-[#c5a059]  shadow-lg transition-all group flex items-center gap-4 " >
+                  <div className="w-12 h-12 bg-gray-50 rounded-full flex items-center justify-center ">
                     <img src="/icons/project-management.png" alt="management" />
                   </div>
                   <div>

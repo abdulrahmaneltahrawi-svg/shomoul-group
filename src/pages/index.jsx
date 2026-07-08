@@ -110,8 +110,8 @@ function Index() {
 
       {/*stats */}
       <section ref={statsRef} className="stats-section relative py-28 overflow-hidden">
-        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/imges/ChatGPT Image May 14, 2026, 10_42_22 AM.png')" }}>
-          <div className="absolute inset-0 bg-black/60"></div>
+        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/imges/ChatGPT Image 8 يوليو 2026، 11_23_27 ص.png')" }}>
+          <div className="absolute inset-0 bg-black/85"></div>
         </div>
         <div className="relative max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-12 text-center">
@@ -328,11 +328,11 @@ function Index() {
 
       {/* Contact Section */}
       <section className="relative flex items-center justify-center text-center text-white" 
-        style={{ height: '60vh', minHeight: '400px', backgroundImage: "url('/imges/ChatGPT Image Jun 30, 2026, 11_44_24 AM.png')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'scroll' }}>
-        <div className="absolute inset-0 bg-black/60"></div>
+        style={{ height: '85vh', minHeight: '400px', backgroundImage: "url('/imges/ChatGPT Image 21 مايو 2026، 10_21_10 ص.png')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'scroll' }}>
+        <div className="absolute inset-0 bg-black/40"></div>
         <div className="relative z-10 px-5">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">لنعمل سوياً</h1>
-          <p className="text-lg md:text-xl mb-6 text-gray-200">أخبرنا بما تبحث عنه، وسنرى كيف يمكننا مساعدتك.</p>
+          <p className="text-lg md:text-xl mb-6 text-gray-200">أخبرنا بما تبحث عنه، وسنرى كيف يمكننا مساعدتك</p>
           <a href="https://api.whatsapp.com/send/?phone=966920031520" className="inline-block px-8 py-4 border-2 border-white text-white text-lg hover:bg-white/60 hover:border-white/50 hover:scale-110 transition-all duration-300">اتصل بنا</a>
         </div>
       </section>   
