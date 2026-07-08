@@ -17,10 +17,10 @@ function Companys() {
 
   return (
     <>
-      <section className="bg-black py-16" dir="rtl">
+      <section className=" py-16" dir="rtl">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-5">شركات مجموعة شمول</h1>
-          <div className="w-130 h-1 bg-[#c5a059] mx-auto rounded-full"></div>
+          <h1 className="text-4xl font-bold text-gray-800 mb-4">شركات مجموعة شمول</h1>
+          <div className="w-100 h-1 bg-[#c5a059] mx-auto rounded-full"></div>
 
         </div>
 

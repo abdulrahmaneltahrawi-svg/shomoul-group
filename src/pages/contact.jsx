@@ -23,7 +23,7 @@ function Contact() {
   const branches = [
     {
       name: "فرع الإحساء",
-      map: "https://maps.app.goog/qq5kidNQZGJxuUPZ8",
+      map: "https://www.google.com/maps/place/%D8%B4%D9%8F%D9%85%D9%88%D9%84+%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA+%D8%A7%D9%84%D9%87%D9%86%D8%AF%D8%B3%D9%8A%D8%A9+-+%D8%A7%D9%84%D8%A7%D8%AD%D8%B3%D8%A7%D8%A1%E2%80%AD/@25.4021496,49.5793926,17z/data=!3m1!4b1!4m6!3m5!1s0x3e3797ec50c3d701:0x9d589024ce82ad94!8m2!3d25.4021496!4d49.5793926!16s%2Fg%2F11lfcq_nrc!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDcwNS4wIKXMDSoASAFQAw%3D%3D",
       address: "حي البستان أمام مركز العثيم التجاري، الأحساء",
       phones: ["920031520", "+966540746462", "+966505825060"],
     },
@@ -41,13 +41,13 @@ function Contact() {
     },
     {
       name: "فرع الدمام",
-      map: "https://maps.app.goo.gl/78T5qkwe2ChTcdaT8",
+      map: "https://www.google.com/maps?q=26.3979786,50.0454491&entry=gps&lucs=,94224825,94227247,94227248,47071704,47069508,94218641,94203019,47084304,94208458,94208447&g_ep=CAISEjI1LjIwLjAuNzU3ODEwNjA5MBgAIJ6dCipaLDk0MjI0ODI1LDk0MjI3MjQ3LDk0MjI3MjQ4LDQ3MDcxNzA0LDQ3MDY5NTA4LDk0MjE4NjQxLDk0MjAzMDE5LDQ3MDg0MzA0LDk0MjA4NDU4LDk0MjA4NDQ3QgJTQQ%3D%3D&skid=c2dbb14a-ba74-41fc-8b10-fca11b3a8b51",
       address: "مجمع الفرقان، طريق الملك فهد، الفيصلية، الدمام 32272",
       phones: ["920031520", "+966540746462", "+966505825060"],
     },
     {
       name: "فرع الرياض",
-      map: "https://maps.app.goo.gl/g1diqcdi1Q2H2E2U9",
+      map: "https://www.google.com/maps/place/%D8%B4%D9%85%D9%88%D9%84+%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC+%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA+%D8%A7%D9%84%D9%87%D9%86%D8%AF%D8%B3%D9%8A%D8%A9+%D9%88%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%D8%A9,+3046+%D8%A7%D9%84%D8%A7%D9%85%D8%A7%D9%85+%D9%81%D9%8A%D8%B5%D9%84+%D8%A8%D9%86+%D8%AA%D8%B1%D9%83%D9%8A+%D8%A8%D9%86+%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%84%D9%87%D8%8C+%D8%A7%D9%84%D9%81%D9%88%D8%B7%D8%A9%D8%8C+%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6+12632%E2%80%AD/data=!4m2!3m1!1s0x6ae14c174998097b:0xb0eda37c3cdebc61!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjE4LjEYACCIJyqKASw5NDI2NzcyNyw5NDI5MjE5NSw5NDI5OTUzMiwxMDA3OTY0OTgsMTAwNzk3NzYxLDEwMDc5NjUzNSw5NDI4NDQ4Nyw5NDI4MDU3Niw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxODY1Myw5NDIyOTgzOSw5NDI3NTE2OCw5NDI3OTYxOUICU0E%3D&skid=fb697acc-3ae1-4571-9907-247c5b7a1173",
       address: "حي الملك فيصل، شارع الشيخ حسن بن حسين",
       phones: ["920031520", "+966540746462", "+966505825060"],
     },
@@ -190,7 +190,7 @@ function Contact() {
                   </svg>
                 </div>
                 <h3 className="text-lg font-bold text-gray-800 mb-1">راسلنا</h3>
-                <a href="mailto:info@shomoul.com" className="text-[#c5a059] text-lg font-bold hover:text-[#92743c] transition-colors">info@shomoul.com</a>
+                <a href="mailto:info@shomoul.com" className="text-[#c5a059] text-lg font-bold hover:text-[#92743c] transition-colors">info@shomoulgroup.com</a>
                 <p className="text-gray-500 text-sm mt-1">نرد على استفساراتكم خلال 24 ساعة</p>
               </div>
 
@@ -201,7 +201,9 @@ function Contact() {
                   </svg>
                 </div>
                 <h3 className="text-lg font-bold text-gray-800 mb-1">الموقع</h3>
-                <p className="text-gray-500 text-sm mt-1">الخبر، المملكة العربية السعودية</p>
+                <a href="https://www.google.com/maps?ll=26.32863,50.17987&z=16&t=m&hl=en&gl=SA&mapclient=embed&cid=11981446224562419378" className="text-[#c5a059] text-lg font-bold hover:text-[#92743c] transition-colors">الخبر، المملكة العربية السعودية</a>
+
+                <p className="text-gray-500 text-sm mt-1">حي الاندلس، شارع الأمير مشاري بن سعود بن عبد العزيز</p>
               </div>
             </div>
           </div>
