@@ -178,7 +178,12 @@ function Index() {
                   <span>التصميم الداخلي والخارجي</span>
                 </li>
               </ul>
-              <a href="/services" className="block w-full text-center px-5 py-3 bg-gray-900 text-white font-bold rounded-lg hover:bg-[#c5a059] transition-all duration-300">
+              <a
+                href={`https://wa.me/966505888280?text=${encodeURIComponent("أريد الاستفسار عن خدمة: الاستشارات الهندسية")}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full text-center px-5 py-3 bg-gray-900 text-white font-bold rounded-lg hover:bg-[#c5a059] transition-all duration-300"
+              >
                 اطلب الخدمة
               </a>
             </div>
@@ -214,7 +219,12 @@ function Index() {
                   <span>إصدار تقارير مساحية معتمدة</span>
                 </li>
               </ul>
-              <a href="/services" className="block w-full text-center px-5 py-3 bg-gray-900 text-white font-bold rounded-lg hover:bg-[#c5a059] transition-all duration-300">
+              <a
+                href={`https://wa.me/966505888280?text=${encodeURIComponent("أريد الاستفسار عن خدمة: المساحة وفرز الأراضي")}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full text-center px-5 py-3 bg-gray-900 text-white font-bold rounded-lg hover:bg-[#c5a059] transition-all duration-300"
+              >
                 اطلب الخدمة
               </a>
             </div>
@@ -250,7 +260,12 @@ function Index() {
                   <span>تقييم المخاطر وإدارة السلامة</span>
                 </li>
               </ul>
-              <a href="/services" className="block w-full text-center px-5 py-3 bg-gray-900 text-white font-bold rounded-lg hover:bg-[#c5a059] transition-all duration-300">
+              <a
+                href={`https://wa.me/966505888280?text=${encodeURIComponent("أريد الاستفسار عن خدمة: السلامة والرخص")}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full text-center px-5 py-3 bg-gray-900 text-white font-bold rounded-lg hover:bg-[#c5a059] transition-all duration-300"
+              >
                 اطلب الخدمة
               </a>
             </div>

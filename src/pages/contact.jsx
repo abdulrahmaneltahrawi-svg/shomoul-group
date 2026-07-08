@@ -200,8 +200,7 @@ function Contact() {
                     <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
                   </svg>
                 </div>
-                <h3 className="text-lg font-bold text-gray-800 mb-1">موقعنا</h3>
-                <a href="https://wa.me/966505888280" className="text-[#c5a059] text-lg font-bold hover:text-[#92743c] transition-colors">+966 50 588 8280</a>
+                <h3 className="text-lg font-bold text-gray-800 mb-1">الموقع</h3>
                 <p className="text-gray-500 text-sm mt-1">الخبر، المملكة العربية السعودية</p>
               </div>
             </div>
@@ -239,23 +238,20 @@ function Contact() {
                   <p className="text-gray-600">{branch.address}</p>
                 </div>
 
-                <div className="flex items-start gap-4">
-                  <svg className="w-6 h-6 text-gray-400 mt-1 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
-                  </svg>
+                <div className="flex flex-col sm:flex-row-reverse sm:items-center justify-between gap-4 mt-6">
                   <div dir="ltr" className="text-left">
                     {branch.phones.map((phone, i) => (
                       <a key={i} href={`tel:${phone}`} className="block text-gray-600 hover:text-[#c5a059] transition-colors">{phone}</a>
                     ))}
                   </div>
-                </div>
 
-                <a href={branch.map} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 mt-6 text-[#c5a059] font-semibold hover:text-[#92743c] transition-colors">
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
-                  </svg>
-                  عرض على الخريطة
-                </a>
+                  <a href={branch.map} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-[#c5a059] font-semibold hover:text-[#92743c] transition-colors">
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                    </svg>
+                    عرض على الخريطة
+                  </a>
+                </div>
               </div>
             ))}
           </div>

@@ -159,9 +159,14 @@ function Services() {
                 ))}
               </ul>
 
-              <button className="block w-full text-center px-5 py-3 bg-gray-900 text-white font-bold rounded-lg hover:bg-[#c5a059] transition-all duration-300">
+              <a
+                href={`https://wa.me/966505888280?text=${encodeURIComponent(`أريد الاستفسار عن خدمة: ${service.title}`)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full text-center px-5 py-3 bg-gray-900 text-white font-bold rounded-lg hover:bg-[#c5a059] transition-all duration-300"
+              >
                 اطلب الخدمة
-              </button>
+              </a>
             </div>
           ))}
         </div>
