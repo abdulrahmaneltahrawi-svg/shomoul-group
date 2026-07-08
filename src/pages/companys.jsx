@@ -12,7 +12,7 @@ function Companys() {
     { id: 7, name: "شمول السلامة", icon: "src/assets/companies/s00-3.jpg" },
     { id: 8, name: "شمول القانون", icon: "src/assets/companies/sd08.jpg" },
     { id: 9, name: "شمول التقنية", icon: "src/assets/companies/ss09.jpg" },
-    { id: 10, name: "شمول التآزر", icon: "src/assets/companies/x004.jpg" },
+    { id: 10, name: "شمول التآزر", icon: "src/assets/companies/x004.png" },
   ];
 
   return (
@@ -28,7 +28,7 @@ function Companys() {
 
       <section className="py-16 bg-gray-50" dir="rtl">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
             {companies.map((c) => (
               <Link
                 key={c.id}
@@ -36,9 +36,9 @@ function Companys() {
                 className="group relative block h-82 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300"
               >
                 {/* Golden glow overlay */}
-                <div className="absolute inset-0 bg-linear-to-t from-black/70 via-transparent to-transparent z-10"></div>
+                <div className="absolute inset-0 bg-linear-to-t from-black/30 via-transparent to-transparent z-10"></div>
                 <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10">
-                  <div className="absolute inset-0 bg-[#c5a059]/20"></div>
+                  <div className="absolute inset-0 bg-[#c5a059]/30"></div>
                   <div className="absolute -top-20 -left-20 w-64 h-64 bg-[#c5a059]/40 rounded-full blur-3xl"></div>
                 </div>
 
