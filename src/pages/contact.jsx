@@ -70,7 +70,7 @@ function Contact() {
       <div className="bg-black text-white py-20">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">تواصل معنا</h1>
-          <div className="w-24 h-1 bg-[#c5a059] mx-auto mb-4 rounded-full"></div>
+          <div className="w-74 h-1 bg-[#c5a059] mx-auto mb-4 rounded-full"></div>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             نحن هنا لمساعدتك - تواصل معنا وسنرد عليك في أقرب وقت
           </p>
