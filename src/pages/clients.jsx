@@ -9,7 +9,7 @@ function Clients() {
           <p className="text-gray-500 mt-3 max-w-5xl mx-auto leading-relaxed">
             نحن نؤمن بأن نجاحنا يرتبط بنجاح عملائنا. على مدار سنوات من الخبرة، حققنا شراكات استراتيجية مع كبرى الشركات والمؤسسات في المملكة.
           </p>
-                      <div className="w-230 h-1 bg-[#c5a059] mx-auto mt-4 rounded-full"></div>
+          <div className="w-64 md:w-230 h-1 bg-[#c5a059] mx-auto mt-4 rounded-full"></div>
 
         </div>
   

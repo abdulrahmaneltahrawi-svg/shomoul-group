@@ -56,21 +56,22 @@ function Footer() {
             <ul className="space-y-4 text-gray-400">
               <li className="flex items-center gap-3 hover:text-[#c5a059] transition-colors duration-300">
                 <div className="w-8 h-8 rounded-full bg-[#c5a059] /20 flex items-center justify-center group-hover:bg-[#947843] /40 transition-colors">
-                  <img src="/icons/email (1).png" alt="واتساب" className="w-7 h-7" />
+                  <img src="/icons/phone-call.png" alt="واتساب" className="w-7 h-7" />
                 </div>
-                <span>+966 123 456 789</span>
+                <a href="https://api.whatsapp.com/send/?phone=966920031520" target="_blank" rel="noopener noreferrer">920031520</a>
               </li>
               <li className="flex items-center gap-3 hover:text-[#c5a059] transition-colors duration-300">
                 <div className="w-8 h-8 rounded-full bg-[#c5a059] /20 flex items-center justify-center group-hover:bg-[#947843] /40 transition-colors">
-                  <img src="/icons/phone-call.png" alt="بريد" className="w-7 h-7" />
+                  <img src="/icons/email (1).png" alt="بريد" className="w-7 h-7" />
                 </div>
-                <span>info@shomoul.com</span>
+                <a href="mailto:info@shomoul.group" target="_blank" rel="noopener noreferrer">info@shomoul.group@gmail.com</a>
               </li>
               <li className="flex items-center gap-3 hover:text-[#c5a059] transition-colors duration-300">
                 <div className="w-8 h-8 rounded-full bg-[#c5a059] /20 flex items-center justify-center group-hover:bg-[#947843] /40 transition-colors">
                   <img src="/icons/gps.png" alt="موقع" className="w-7 h-7" />
                 </div>
-                <span>الرياض، المملكة العربية السعودية</span>
+                <a href="https://maps.app.goo.gl/RMk6UUgm8LJPQjT68"><span>الخبر، المملكة العربية السعودية</span></a>
+                
               </li>
             </ul>
           </div>

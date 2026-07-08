@@ -132,7 +132,7 @@ function Services() {
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             نقدم مجموعة متكاملة من الخدمات الهندسية والاستشارية بأعلى معايير الجودة والاحترافية
           </p>
-          <div className="w-204 h-1 bg-[#c5a059] mx-auto mt-4 rounded-full"></div>
+          <div className="w-64 md:w-204 h-1 bg-[#c5a059] mx-auto mt-4 rounded-full"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">

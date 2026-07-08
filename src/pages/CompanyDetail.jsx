@@ -100,23 +100,15 @@ function CompanyDetail() {
   return (
     <div className="min-h-screen bg-gray-50" dir="rtl">
       {/* Hero Banner */}
-      <section className="relative bg-black text-white overflow-hidden">
+      <section className="relative bg-black text-white overflow-hidden flex">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-10 left-10 w-72 h-92 bg-[#c5a059] rounded-full blur-3xl"></div>
           <div className="absolute bottom-10 right-10 w-96 h-96 bg-[#c5a059] rounded-full blur-3xl"></div>
         </div>
         <div className="relative max-w-6xl mx-auto px-6 py-16">
           <div className="flex flex-col md:flex-row items-center gap-10">
-            <div className="md:w-98 w-32 backdrop-blur-sm p-6 ">
-              <img 
-                src={company.img} 
-                alt={company.name}
-                className="w-full h-auto object-contain"
-              />
-            </div>
             <div className="flex-1 text-center md:text-right">
-              <div className="inline-block px-4 py-1 bg-[#c5a059]/20 text-[#c5a059] rounded-full text-sm font-bold mb-4 border border-[#c5a059]/30">شركة مجموعة شمول</div>
-              <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">{company.name}</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight text-[#c5a059] ">{company.name}</h1>
               <p className="text-gray-300 text-lg leading-relaxed">{company.description}</p>
             </div>
           </div>

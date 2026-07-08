@@ -44,7 +44,7 @@ function Projects() {
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               نفتخر بتقديم مجموعة من أبرز المشاريع الهندسية التي قمنا بتنفيذها والإشراف عليها
             </p>
-            <div className="w-184 h-1 bg-[#c5a059] mx-auto mt-4 rounded-full"></div>
+            <div className="w-64 md:w-184 h-1 bg-[#c5a059] mx-auto mt-4 rounded-full"></div>
           </div>
 
           {/* Filter Buttons */}
@@ -75,7 +75,7 @@ function Projects() {
                 <img
                   src={project.img}
                   alt={project.caption}
-                  className="w-full h-80 object-cover"
+                  className="w-full h-86 md:h-80 object-cover"
                   loading="lazy"
                 />
                 <div className="p-5">

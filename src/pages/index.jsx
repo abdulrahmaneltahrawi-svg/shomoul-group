@@ -58,7 +58,7 @@ function Index() {
       {/* Hero Section */}
       <div className="relative text-white bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/imges/ChatGPT Image May 20, 2026, 11_12_45 AM.png')" }}>
         <div className="absolute inset-0 bg-black/60"></div>
-        <div className="container mx-auto px-4 py-70 relative z-10" dir="rtl">
+        <div className="container mx-auto px-4 py-20 md:py-70 relative z-10" dir="rtl">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
               حلول هندسية احترافية
@@ -66,7 +66,7 @@ function Index() {
             <p className="text-xl md:text-2xl mb-8 text-gray-300 leading-relaxed">
               نقدم أفضل الاستشارات الهندسية والتصميم والإشراف على المشاريع بأحدث التقنيات
             </p>
-            <div className="flex justify-center gap-4">
+        <div className="flex flex-col sm:flex-row justify-center gap-4">
               <a
                 href="/about"
                 className="inline-block bg-[#c5a059] hover:bg-black text-white font-bold px-8 py-4 rounded-lg transition-colors text-lg"
@@ -90,8 +90,8 @@ function Index() {
           <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-16">
             <div className="relative w-full lg:w-1/2 h-auto lg:h-155">
               <div className="flex lg:hidden gap-4 justify-center">
-                <img src="assets/imges/Screenshot 2026-05-13 163206.png" alt="" className="w-[47%] h-80 object-cover rounded-[25px] shadow-2xl" />
-                <img src="assets/imges/Screenshot 2026-05-13 163200.png" alt="" className="w-[47%] h-80 object-cover rounded-[25px] shadow-2xl" />
+                <img src="/imges/Screenshot 2026-05-13 163200.png" alt="" className="w-[47%] h-90 object-cover rounded-[25px] shadow-2xl" />
+                <img src="/imges/Screenshot 2026-05-13 163206.png" alt="" className="w-[47%] h-90 object-cover rounded-[25px] shadow-2xl" />
               </div>
               <div className="hidden lg:block relative h-155">
                 <img src="/imges/Screenshot 2026-05-13 163206.png" alt="" className="absolute left-8 bottom-10 w-62.5 h-120 object-cover rounded-[35px] shadow-2xl" />
@@ -102,7 +102,7 @@ function Index() {
               <h2 className="text-3xl font-extrabold text-[#222] leading-tight mb-8">مجموعة شمول للاستشارات الهندسية</h2>
               <p className="text-gray-700 leading-9 mb-8 text-md">مجموعة شمول للإستشارات هي مجموعة من الشركات المتخصصة في الاستشارات الهندسية والسلامة والاستشارات القانونية والمالية والإدارية والفنية والاستشارات البيئية والجيوجرافية وأعمال المساحة وفرز الأراضي، باستخدام أحدث التقنيات للوصول إلى أعلى مستويات الخدمات لعملائنا.</p>
               <p className="text-gray-700 leading-9 text-md mb-5">نحن فخورون دائمًا بكل ما حققناه ونسعى إلى مواصلة طريق التقدم والنمو بناءً على الرؤية المستقبلية للمملكة العربية السعودية ومرتكزات مبنية على أسس سليمة تتبع المعايير الدولية والوطنية ومواكبة التكنولوجيا مع التركيز على تحقيق النمو المستدام.</p>
-              <a href="/pages/about.html" className="inline-flex items-center justify-center bg-[#4d4d4d] text-white font-bold px-10 py-4 rounded-xl hover:bg-[#c5a059] transition duration-300">معرفة المزيد</a>
+              <a href="/about" className="inline-flex items-center justify-center bg-[#4d4d4d] text-white font-bold px-10 py-4 rounded-xl hover:bg-[#c5a059] transition duration-300">معرفة المزيد</a>
             </div>
           </div>
         </div>
@@ -116,24 +116,24 @@ function Index() {
         <div className="relative max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-12 text-center">
             <div>
-              <img src="/icons/management.png" className="w-16 h-16 mx-auto mb-8 invert" />
-              <h2 className="text-white text-6xl font-extrabold">{counts.projects}+</h2>
-              <p className="text-white text-2xl font-bold mt-10">المشاريع</p>
+              <img src="/icons/management.png" className="w-12 h-12 md:w-16 md:h-16 mx-auto mb-4 md:mb-8 invert" />
+              <h2 className="text-white text-4xl md:text-6xl font-extrabold">{counts.projects}+</h2>
+              <p className="text-white text-lg md:text-2xl font-bold mt-4 md:mt-10">المشاريع</p>
             </div>
             <div>
-              <img src="/icons/support.png" className="w-16 h-16 mx-auto mb-8 invert" /> 
-              <h2 className="text-white text-6xl font-extrabold">{counts.clients}+</h2>
-              <p className="text-white text-2xl font-bold mt-10">العملاء</p>
+              <img src="/icons/support.png" className="w-12 h-12 md:w-16 md:h-16 mx-auto mb-4 md:mb-8 invert" /> 
+              <h2 className="text-white text-4xl md:text-6xl font-extrabold">{counts.clients}+</h2>
+              <p className="text-white text-lg md:text-2xl font-bold mt-4 md:mt-10">العملاء</p>
             </div>
             <div>
-              <img src="/icons/costumer.png" className="w-16 h-16 mx-auto mb-8 invert" />
-              <h2 className="text-white text-6xl font-extrabold">{counts.team}+</h2>
-              <p className="text-white text-2xl font-bold mt-10">أعضاء الفريق</p>
+              <img src="/icons/costumer.png" className="w-12 h-12 md:w-16 md:h-16 mx-auto mb-4 md:mb-8 invert" />
+              <h2 className="text-white text-4xl md:text-6xl font-extrabold">{counts.team}+</h2>
+              <p className="text-white text-lg md:text-2xl font-bold mt-4 md:mt-10">أعضاء الفريق</p>
             </div>
             <div>
-              <img src="/icons/anniversary.png" className="w-16 h-16 mx-auto mb-8 invert" />
-              <h2 className="text-white text-6xl font-extrabold">{counts.years}+</h2>
-              <p className="text-white text-2xl font-bold mt-10">سنوات في مجال العمل</p>
+              <img src="/icons/anniversary.png" className="w-12 h-12 md:w-16 md:h-16 mx-auto mb-4 md:mb-8 invert" />
+              <h2 className="text-white text-4xl md:text-6xl font-extrabold">{counts.years}+</h2>
+              <p className="text-white text-lg md:text-2xl font-bold mt-4 md:mt-10">سنوات في مجال العمل</p>
             </div>
           </div>
         </div>
@@ -328,12 +328,12 @@ function Index() {
 
       {/* Contact Section */}
       <section className="relative flex items-center justify-center text-center text-white" 
-        style={{ height: '60vh', minHeight: '400px', backgroundImage: "url('/imges/ChatGPT Image Jun 30, 2026, 11_44_24 AM.png')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
+        style={{ height: '60vh', minHeight: '400px', backgroundImage: "url('/imges/ChatGPT Image Jun 30, 2026, 11_44_24 AM.png')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'scroll' }}>
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative z-10 px-5">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">لنعمل سوياً</h1>
           <p className="text-lg md:text-xl mb-6 text-gray-200">أخبرنا بما تبحث عنه، وسنرى كيف يمكننا مساعدتك.</p>
-          <a href="https://wa.me/966505888280" className="inline-block px-8 py-4 border-2 border-white text-white text-lg hover:bg-white/60 hover:border-white/50 hover:scale-110 transition-all duration-300">اتصل بنا</a>
+          <a href="https://api.whatsapp.com/send/?phone=966920031520" className="inline-block px-8 py-4 border-2 border-white text-white text-lg hover:bg-white/60 hover:border-white/50 hover:scale-110 transition-all duration-300">اتصل بنا</a>
         </div>
       </section>   
 

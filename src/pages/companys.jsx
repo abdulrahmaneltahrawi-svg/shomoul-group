@@ -38,7 +38,7 @@ function Companys() {
                 {/* Golden glow overlay */}
                 <div className="absolute inset-0 bg-linear-to-t from-black/30 via-transparent to-transparent z-10"></div>
                 <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10">
-                  <div className="absolute inset-0 bg-[#c5a059]/30"></div>
+                  <div className="absolute inset-0 bg-[#c5a059]/5"></div>
                   <div className="absolute -top-20 -left-20 w-64 h-64 bg-[#c5a059]/40 rounded-full blur-3xl"></div>
                 </div>
 

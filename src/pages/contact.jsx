@@ -70,7 +70,7 @@ function Contact() {
       <div className="bg-black text-white py-20">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">تواصل معنا</h1>
-          <div className="w-74 h-1 bg-[#c5a059] mx-auto mb-4 rounded-full"></div>
+          <div className="w-64 md:w-74 h-1 bg-[#c5a059] mx-auto mb-4 rounded-full"></div>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             نحن هنا لمساعدتك - تواصل معنا وسنرد عليك في أقرب وقت
           </p>
@@ -200,9 +200,9 @@ function Contact() {
                     <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
                   </svg>
                 </div>
-                <h3 className="text-lg font-bold text-gray-800 mb-1">WhatsApp</h3>
-                <a href="https://wa.me/966505888280" className="text-[#c5a059] text-lg font-bold hover:text-green-600 transition-colors">+966 50 588 8280</a>
-                <p className="text-gray-500 text-sm mt-1">تواصل فوري عبر واتساب</p>
+                <h3 className="text-lg font-bold text-gray-800 mb-1">موقعنا</h3>
+                <a href="https://wa.me/966505888280" className="text-[#c5a059] text-lg font-bold hover:text-[#92743c] transition-colors">+966 50 588 8280</a>
+                <p className="text-gray-500 text-sm mt-1">الخبر، المملكة العربية السعودية</p>
               </div>
             </div>
           </div>
