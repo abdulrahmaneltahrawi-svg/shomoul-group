@@ -51,6 +51,18 @@ function Contact() {
       address: "حي الملك فيصل، شارع الشيخ حسن بن حسين",
       phones: ["920031520", "+966540746462", "+966505825060"],
     },
+    {
+      name: "فرع مكة",
+      map: "https://www.google.com/maps/place/21%C2%B023'19.3%22N+39%C2%B052'25.0%22E/@21.3885222,39.8706682,967m/data=!3m1!1e3!4m4!3m3!8m2!3d21.3886871!4d39.8736!5m1!1e1?hl=en&entry=ttu&g_ep=EgoyMDI2MDcwOC4wIKXMDSoASAFQAw%3D%3D",
+      address: "شارع الطايف",
+      phones: ["920031520", "+966540746462", "+966505825060"],
+    },
+    {
+      name: "فرع الجبيل",
+      map: "https://www.google.com/maps/place/Shomoul+engineering+consultant+%D8%B4%D9%85%D9%88%D9%84+%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC+%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA+%D8%A7%D9%84%D9%87%D9%86%D8%AF%D8%B3%D9%8A%D8%A9+%D9%88+%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%D8%A9%E2%80%AD/@27.0041302,49.6568074,739m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3e35a16618907543:0x5a701a93dee15314!8m2!3d27.0041302!4d49.6568074!16s%2Fg%2F11lccnhl3c!5m2!1e2!1e4?entry=ttu&g_ep=EgoyMDI2MDcwOC4wIKXMDSoASAFQAw%3D%3D",
+      address: "مول، شارع المدينة المنورة، بالقرب من الجبيل",
+      phones: ["920031520", "+966540746462", "+966505825060"],
+    },
   ];
 
   const services = [

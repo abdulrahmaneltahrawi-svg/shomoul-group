@@ -59,7 +59,7 @@ function Index() {
       <div className="relative text-white bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/imges/ChatGPT Image May 20, 2026, 11_12_45 AM.png')" }}>
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="container mx-auto px-4 py-20 md:py-70 relative z-10" dir="rtl">
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="max-w-4xl mx-auto text-center mt-32 md:mt-48">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
               حلول هندسية احترافية
             </h1>
