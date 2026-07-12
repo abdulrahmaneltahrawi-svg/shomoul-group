@@ -9,6 +9,7 @@ import CompanyDetail from './pages/CompanyDetail.jsx'
 import Contact from './pages/contact.jsx'
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
+import WhatsAppButton from './components/WhatsAppButton.jsx'
 
 
 function App() {
@@ -33,6 +34,9 @@ function App() {
 
       {/* Footer */}
       <Footer />
+
+      {/* WhatsApp Floating Button */}
+      <WhatsAppButton />
     </>
   )
 }
