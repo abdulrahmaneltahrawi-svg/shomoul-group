@@ -81,8 +81,7 @@ function Contact() {
       {/* Hero Banner */}
       <div className="bg-black text-white py-20">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4">تواصل معنا</h1>
-          <div className="w-64 md:w-74 h-1 bg-[#c5a059] mx-auto mb-4 rounded-full"></div>
+          <h1 className="hero-title">تواصل معنا</h1>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             نحن هنا لمساعدتك - تواصل معنا وسنرد عليك في أقرب وقت
           </p>
@@ -96,8 +95,13 @@ function Contact() {
             {/* Form */}
             <div className="w-full lg:w-2/3">
               <div className="bg-white rounded-3xl shadow-xl p-8 md:p-10 border border-gray-100">
-                <h2 className="text-3xl font-bold text-gray-800 mb-2">أرسل لنا رسالة</h2>
-                <p className="text-gray-500 mb-8">املأ النموذج وسيتم إرسال طلبك مباشرة عبر الواتساب</p>
+                <div className="gold-accent-heading">
+                  <div className="accent-bar"></div>
+                  <div className="heading-text">
+                    <h2>أرسل لنا رسالة</h2>
+                    <p className="heading-sub">املأ النموذج وسيتم إرسال طلبك مباشرة عبر الواتساب</p>
+                  </div>
+                </div>
                 
                 <form onSubmit={handleSubmit} className="space-y-5">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
@@ -225,10 +229,15 @@ function Contact() {
       {/* Branches */}
       <section className="py-16 bg-white" dir="rtl">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <div className="inline-block px-4 py-1 bg-[#c5a059]/10 text-[#c5a059] rounded-full text-sm font-bold mb-4">فروعنا</div>
-            <h2 className="text-4xl font-bold text-gray-800">جميع فروعنا</h2>
-            <p className="text-gray-500 mt-4">موزعة في أنحاء المملكة لتكون بالقرب منك</p>
+          <div className="page-title-wrapper">
+            <div className="gold-badge" style={{margin: "0 auto 1rem"}}>فروعنا</div>
+            <h2 className="page-title">جميع فروعنا</h2>
+            <div className="title-decoration">
+              <span className="line"></span>
+              <span className="diamond"></span>
+              <span className="line"></span>
+            </div>
+            <p className="title-sub">موزعة في أنحاء المملكة لتكون بالقرب منك</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -275,9 +284,16 @@ function Contact() {
       {/* Map Section */}
       <section className="py-16 bg-gray-50 text-center" dir="rtl">
         <div className="max-w-4xl mx-auto px-6">
-          <div className="inline-block px-4 py-1 bg-[#c5a059]/10 text-[#c5a059] rounded-full text-sm font-bold mb-6">موقعنا</div>
-          <h2 className="text-4xl font-bold text-gray-800 mb-6">جِدنا على الخريطة</h2>
-          <p className="text-gray-500 mb-10">يمكنك استخدام الخريطة للوصول إلى أقرب فروعنا</p>
+          <div className="page-title-wrapper">
+            <div className="gold-badge" style={{margin: "0 auto 1rem"}}>موقعنا</div>
+            <h2 className="page-title">جِدنا على الخريطة</h2>
+            <div className="title-decoration">
+              <span className="line"></span>
+              <span className="diamond"></span>
+              <span className="line"></span>
+            </div>
+            <p className="title-sub">يمكنك استخدام الخريطة للوصول إلى أقرب فروعنا</p>
+          </div>
           <div className="bg-white rounded-2xl shadow-lg p-4 border border-gray-100">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3575.934214913363!2d50.1798697!3d26.3286296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49e767c98cb2a5%3A0xa646a5dc5e7cf6b2!2z2YXYrNmF2YjYudipINi02YXZiNmEINmE2YTYp9iz2KrYtNin2LHYp9iqIC0gU2hvbW91bCBDb25zdWx0aW5nIEdyb3VwIC0gU0NHICjYp9mE2LTZh9ix2Yog2LPYp9io2YLYp9mLKQ!5e0!3m2!1sen!2ssa!4v1783340006099!5m2!1sen!2ssa" 

@@ -4,13 +4,16 @@ function Clients() {
   return (
     <main className="py-16">
       <div className="max-w-7xl mx-auto px-5">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-black text-[#1a1a1a]">شركاء النجاح</h2>
-          <p className="text-gray-500 mt-3 max-w-5xl mx-auto leading-relaxed">
+        <div className="page-title-wrapper">
+          <h2 className="page-title">العملاء</h2>
+          <div className="title-decoration">
+            <span className="line"></span>
+            <span className="diamond"></span>
+            <span className="line"></span>
+          </div>
+          <p className="title-sub">
             نحن نؤمن بأن نجاحنا يرتبط بنجاح عملائنا. على مدار سنوات من الخبرة، حققنا شراكات استراتيجية مع كبرى الشركات والمؤسسات في المملكة
           </p>
-          <div className="w-64 md:w-230 h-1 bg-[#c5a059] mx-auto mt-4 rounded-full"></div>
-
         </div>
   
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5">

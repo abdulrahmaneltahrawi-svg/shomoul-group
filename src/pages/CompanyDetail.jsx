@@ -152,15 +152,16 @@ function CompanyDetail() {
             <div className="lg:col-span-2">
               <div className="bg-white rounded-3xl shadow-xl p-8 md:p-10 border border-gray-100">
                 {/* About Header */}
-                <div className="flex items-center gap-4 mb-8">
-                  <div className="w-14 h-14 bg-linear-to-br from-[#c5a059] to-[#a8863d] rounded-2xl flex items-center justify-center shadow-lg shadow-[#c5a059]/20">
-                    <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="gold-accent-heading">
+                  <div className="accent-bar"></div>
+                  <div className="heading-text">
+                    <h2>عن الشركة</h2>
+                    <p className="heading-sub">نبذة تعريفية عن {company.name}</p>
+                  </div>
+                  <div className="heading-icon-box">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                  </div>
-                  <div>
-                    <h2 className="text-2xl md:text-3xl font-bold text-gray-800">عن الشركة</h2>
-                    <div className="w-25 h-0.5 bg-[#c5a059] mt-1"></div>
                   </div>
                 </div>
 
@@ -204,15 +205,16 @@ function CompanyDetail() {
             {/* Sidebar - Services */}
             <div className="lg:col-span-1">
               <div className="bg-white rounded-3xl shadow-xl p-8 border border-gray-100 sticky top-24">
-                <div className="flex items-center gap-4 mb-8">
-                  <div className="w-14 h-14 bg-linear-to-br from-[#c5a059] to-[#a8863d] rounded-2xl flex items-center justify-center shadow-lg shadow-[#c5a059]/20">
-                    <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="gold-accent-heading">
+                  <div className="accent-bar"></div>
+                  <div className="heading-text">
+                    <h2>خدماتنا</h2>
+                    <p className="heading-sub">أبرز الخدمات التي نقدمها</p>
+                  </div>
+                  <div className="heading-icon-box">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
                     </svg>
-                  </div>
-                  <div>
-                    <h2 className="text-2xl font-bold text-gray-800">خدماتنا</h2>
-                    <div className="w-12 h-0.5 bg-[#c5a059] mt-1"></div>
                   </div>
                 </div>
 

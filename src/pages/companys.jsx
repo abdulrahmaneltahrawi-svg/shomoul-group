@@ -17,13 +17,20 @@ function Companys() {
 
   return (
     <>
-      <section className=" py-16" dir="rtl">
-        <div className="max-w-6xl mx-auto px-6 text-center">
-          <h1 className="text-4xl font-bold text-gray-800 mb-4">شركات مجموعة شمول</h1>
-          <div className="w-100 h-1 bg-[#c5a059] mx-auto rounded-full"></div>
-
+      <section className="py-16" dir="rtl">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="page-title-wrapper">
+            <h1 className="page-title">الشركات</h1>
+            <div className="title-decoration">
+              <span className="line"></span>
+              <span className="diamond"></span>
+              <span className="line"></span>
+            </div>
+            <p className="title-sub">
+نستعرض لكم باقة من أبرز أعمالنا وخدماتنا التي نفذناها، والتي تعكس خبرة فريقنا في تقديم حلول استشارية متكاملة
+            </p>
+          </div>
         </div>
-
       </section>
 
       <section className="py-16 bg-gray-50" dir="rtl">

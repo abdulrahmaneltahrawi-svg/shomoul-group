@@ -142,9 +142,14 @@ function Index() {
       {/* Services Section - 3 Cards same style as services page */}
       <section className="py-20 bg-gray-50" dir="rtl">
         <div className="max-w-7xl mx-auto px-5">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">الخدمات</h2>
-                      </div>
+          <div className="page-title-wrapper">
+            <h2 className="page-title">الخدمات</h2>
+            <div className="title-decoration">
+              <span className="line"></span>
+              <span className="diamond"></span>
+              <span className="line"></span>
+            </div>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
             {/* Card 1 - الاستشارات الهندسية */}
@@ -286,7 +291,14 @@ function Index() {
 
       {/* alhayat */}
       <section className="py-16 bg-gray-50">
-        <h2 className="text-center text-3xl font-black text-[#1a1a1a] mb-10">الهيئات المعتمدة</h2>
+        <div className="page-title-wrapper">
+          <h2 className="page-title">الهيئات المعتمدة</h2>
+          <div className="title-decoration">
+            <span className="line"></span>
+            <span className="diamond"></span>
+            <span className="line"></span>
+          </div>
+        </div>
         <div className="overflow-hidden w-full relative">
           <div className="slider-track">
             <div className="shrink-0 w-56 h-32 bg-white rounded-xl shadow flex items-center justify-center p-5 border border-gray-100">
@@ -346,7 +358,10 @@ function Index() {
         style={{ height: '85vh', minHeight: '400px', backgroundImage: "url('/imges/ChatGPT Image 21 مايو 2026، 10_21_10 ص.png')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'scroll' }}>
         <div className="absolute inset-0 bg-black/40"></div>
         <div className="relative z-10 px-5">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">لنعمل سوياً</h1>
+          <h1 className="hero-title">لنعمل سوياً</h1>
+          <div className="justify-center">
+            <span className="line" style={{background: "linear-gradient(90deg, transparent, #c5a059)"}}></span>
+          </div>
           <p className="text-lg md:text-xl mb-6 text-gray-200">أخبرنا بما تبحث عنه، وسنرى كيف يمكننا مساعدتك</p>
           <a href="https://api.whatsapp.com/send/?phone=966920031520" className="inline-block px-8 py-4 border-2 border-white text-white text-lg hover:bg-white/60 hover:border-white/50 hover:scale-110 transition-all duration-300">اتصل بنا</a>
         </div>
@@ -354,7 +369,14 @@ function Index() {
 
       {/* Clients Section */}
       <section className="py-16">
-        <h2 className="text-center text-3xl font-black text-[#1a1a1a] mb-10">العملاء</h2>
+        <div className="page-title-wrapper">
+          <h2 className="page-title">العملاء</h2>
+          <div className="title-decoration">
+            <span className="line"></span>
+            <span className="diamond"></span>
+            <span className="line"></span>
+          </div>
+        </div>
         <div className="max-w-5xl mx-auto px-10">
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
             <div className="flex justify-center">

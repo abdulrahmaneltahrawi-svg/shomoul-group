@@ -127,12 +127,16 @@ function Services() {
     <section className="py-20 bg-gray-50" dir="rtl">
       <div className="max-w-7xl mx-auto px-5">
         {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-800 mb-4">خدماتنا الهندسية</h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+        <div className="page-title-wrapper">
+          <h1 className="page-title">الخدمات </h1>
+          <div className="title-decoration">
+            <span className="line"></span>
+            <span className="diamond"></span>
+            <span className="line"></span>
+          </div>
+          <p className="title-sub">
             نقدم مجموعة متكاملة من الخدمات الهندسية والاستشارية بأعلى معايير الجودة والاحترافية
           </p>
-          <div className="w-64 md:w-204 h-1 bg-[#c5a059] mx-auto mt-4 rounded-full"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">

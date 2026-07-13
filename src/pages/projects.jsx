@@ -39,12 +39,16 @@ function Projects() {
       <main className="py-12" dir="rtl">
         <div className="max-w-6xl mx-auto px-3">
           {/* Header */}
-          <div className="text-center mb-8">
-            <h1 className="text-4xl font-bold text-gray-800 mb-4">المشاريع</h1>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <div className="page-title-wrapper">
+            <h1 className="page-title">المشاريع</h1>
+            <div className="title-decoration">
+              <span className="line"></span>
+              <span className="diamond"></span>
+              <span className="line"></span>
+            </div>
+            <p className="title-sub">
               نفتخر بتقديم مجموعة من أبرز المشاريع الهندسية التي قمنا بتنفيذها والإشراف عليها
             </p>
-            <div className="w-64 md:w-184 h-1 bg-[#c5a059] mx-auto mt-4 rounded-full"></div>
           </div>
 
           {/* Filter Buttons */}
