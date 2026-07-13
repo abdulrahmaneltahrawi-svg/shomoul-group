@@ -110,7 +110,7 @@ function Index() {
 
       {/*stats */}
       <section ref={statsRef} className="stats-section relative py-28 overflow-hidden">
-        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/imges/ChatGPT Image 8 يوليو 2026، 11_23_27 ص.png')" }}>
+        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/imges/ChatGPT Image 8 يوليو 2026، 11_23_27 ص.png')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
           <div className="absolute inset-0 bg-black/85"></div>
         </div>
         <div className="relative max-w-7xl mx-auto px-6">
@@ -355,7 +355,7 @@ function Index() {
 
       {/* Contact Section */}
       <section className="relative flex items-center justify-center text-center text-white" 
-        style={{ height: '85vh', minHeight: '400px', backgroundImage: "url('/imges/ChatGPT Image 21 مايو 2026، 10_21_10 ص.png')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
+        style={{ height: '85vh', minHeight: '400px', backgroundImage: "url('public/imges/ChatGPT Image Jul 13, 2026, 04_43_04 PM.png')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
         <div className="absolute inset-0 bg-black/40"></div>
         <div className="relative z-10 px-5">
           <h1 className="hero-title">لنعمل سوياً</h1>
