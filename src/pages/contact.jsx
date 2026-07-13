@@ -230,7 +230,6 @@ function Contact() {
       <section className="py-16 bg-white" dir="rtl">
         <div className="max-w-6xl mx-auto px-6">
           <div className="page-title-wrapper">
-            <div className="gold-badge" style={{margin: "0 auto 1rem"}}>فروعنا</div>
             <h2 className="page-title">جميع فروعنا</h2>
             <div className="title-decoration">
               <span className="line"></span>
@@ -285,7 +284,6 @@ function Contact() {
       <section className="py-16 bg-gray-50 text-center" dir="rtl">
         <div className="max-w-4xl mx-auto px-6">
           <div className="page-title-wrapper">
-            <div className="gold-badge" style={{margin: "0 auto 1rem"}}>موقعنا</div>
             <h2 className="page-title">جِدنا على الخريطة</h2>
             <div className="title-decoration">
               <span className="line"></span>
