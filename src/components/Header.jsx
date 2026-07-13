@@ -12,7 +12,7 @@ function Header() {
   return (
     <nav className="bg-black sticky top-0 z-60" dir="rtl">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-around h-16">
           {/* Logo - Right side */}
           <Link className="text-[#c5a059] font-bold text-xl" to="">
             <img src="/imges/Shomoul.png" alt="logo" className="w-36 md:w-58 h-auto" />
