@@ -33,7 +33,7 @@ function Companys() {
         </div>
       </section>
 
-      <section className="py-16 bg-gray-50" dir="rtl">
+      <section dir="rtl">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
             {companies.map((c) => (
