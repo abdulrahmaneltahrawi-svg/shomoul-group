@@ -65,16 +65,16 @@ function Header() {
             {/* Social Media Icons - ضع صورك في src */}
             <div className="hidden md:flex items-center gap-2">
               <a href="https://api.whatsapp.com/send/?phone=966920031520" target="_blank" rel="noopener noreferrer" className="w-9 h-9 flex items-center justify-center bg-white/20 hover:bg-white/30 transition-colors p-1.5 rounded">
-                <img src="public/social media/002-whatsapp.png" alt="واتساب" className="w-full h-full object-contain invert" />
+                <img src="/social media/002-whatsapp.png" alt="واتساب" className="w-full h-full object-contain invert" />
               </a>
               <a href="https://www.instagram.com/shomoul.group" target="_blank" rel="noopener noreferrer" className="w-9 h-9 flex items-center justify-center bg-white/20 hover:bg-white/30 transition-colors p-1.5 rounded">
-                <img src="public/social media/003-instagram.png" alt="انستقرام" className="w-full h-full object-contain invert" />
+                <img src="/social media/003-instagram.png" alt="انستقرام" className="w-full h-full object-contain invert" />
               </a>
               <a href="https://www.facebook.com/ShomoulGroup/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 flex items-center justify-center bg-white/20 hover:bg-white/30 transition-colors p-1.5 rounded">
-                <img src="public/social media/001-facebook.png" alt="فيسبوك" className="w-full h-full object-contain invert" />
+                <img src="/social media/001-facebook.png" alt="فيسبوك" className="w-full h-full object-contain invert" />
               </a>
               <a href="https://www.linkedin.com/company/shomoulgroup" target="_blank" rel="noopener noreferrer" className="w-9 h-9 flex items-center justify-center bg-white/20 hover:bg-white/30 transition-colors p-1.5 rounded">
-                <img src="public/social media/004-linkedin.png" alt="لينكد إن" className="w-full h-full object-contain invert" />
+                <img src="/social media/004-linkedin.png" alt="لينكد إن" className="w-full h-full object-contain invert" />
               </a>
             </div>
 
